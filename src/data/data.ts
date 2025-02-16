@@ -29,7 +29,7 @@ export const data = {
     // },
     {
       title: "   Portfolio",
-      describe: "you&apos;re using it now",
+      describe: "you're using it now",
       link: "https://github.com/chaitechie/portfoliowebsite",
       image: "/img/portfolio.png",
       techstack: "Nextjs TypeScript Emailjs TailwindCSS",

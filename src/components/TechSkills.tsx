@@ -2,7 +2,7 @@ import React from "react";
 import { data } from "@/data/data";
 function TechSkills() {
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 grid-cols-1 gap-4 ml-[15%] place-items-center gap-4  p-4">
+    <div className="grid md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 grid-cols-1 gap-4  place-items-center p-4">
       {data.skills.map((props) => (
         <div
           key={props.name}

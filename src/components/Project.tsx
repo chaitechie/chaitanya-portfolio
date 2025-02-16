@@ -4,11 +4,11 @@ import { data } from "@/data/data";
 import Link from "next/link";
 const Project = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 xl:grid-cols-4 2xl:grid-cols-4 m-[2%] place-items-center md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-4 xl:grid-cols-3 2xl:grid-cols-3 m-[2%] place-items-center md:grid-cols-2">
       {data.bigger.map((item) => (
         <div
           key={item.title}
-          className="w-[300px] h-[46svh] border-white border-[1px] rounded-[10px] cols-span-3 "
+          className="w-[300px] h-[46vh] border-white border-[1px] rounded-[10px] cols-span-3 "
         >
           <Image
             src={item.image}

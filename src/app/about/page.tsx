@@ -18,7 +18,7 @@ function AboutPage() {
           who am i?
         </p>
 
-        <div className="grid  grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6  place-items-center">
+        <div className="grid  grid-cols-1 xl:grid-cols-2 md:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6 m-[2%] place-items-center">
           <div className="flex flex-col justify-center item-center gap-[20px] cols-span-6 w-[90%] h-[400px] ml-[5%]  xl:ml-[20%] 2xl:ml-[30%] ">
             <p className="font-(--font-regular)  text-[#abb2bf] text-[14px]  xl:text-[1.4rem] 2xl:text-[1.8rem] ">
               hello,i&apos;m chaitanya!
@@ -39,9 +39,7 @@ function AboutPage() {
             src={Animedev}
             alt="animedev"
             priority
-            className="w-[300px] h-[300px] cols-span-6 
-           2xl:w-[400px] 2xl:h-[400px] xl:w-[300px] xl:h-[300px] 
-           xl:ml-[20%] 2xl:mr-[-30%] mr-[-10%] sm:place-items-center"
+            className="w-[257] h-[286px] xl:w-[457px] xl:h-[386px]"
           />
         </div>
       </div>

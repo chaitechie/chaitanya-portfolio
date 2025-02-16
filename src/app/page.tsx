@@ -13,21 +13,18 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="w-screen">
+
         {/*Hero Section */}
-        <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 2xl:grid-cols-2 place-items-center">
-          <div className="flex flex-col justify-center items-start gap-[20px] xl:w-[537px] xl:h-[227px] xl:ml-[5%]">
-            <h1 className="font-(--font-bold) text-[18px] text-white xl:text-[2rem] 2xl:text-[2.5rem] md:text-[32px] ">
-              chaitanya is
-              <strong className="text-[#c778dd]">
-                {" "}
-                frontend developer
-              </strong>{" "}
+        <div className="grid  grid-cols-1 xl:grid-cols-2 md:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-5 m-[2%] place-items-center">
+          <div className="flex flex-col justify-center items-start gap-[10px] h-[20vh] cols-span-6">
+            <h1 className="font-(--font-bold) text-[18px] text-white xl:text-[2rem] 2xl:text-[2.5rem] md:text-[32px] text-center">
+              chaitanya is 
+              <strong className="text-[#c778dd]">  frontend developer </strong>
               and
-              <strong className="text-[#c778dd]"> web designeer</strong>
+              <strong className="text-[#c778dd]"> web designer  </strong>
             </h1>
             <p
-              className="font-(--font-regular) text-[16px] text-[#abb2bf]
+              className="font-(--font-regular) text-[16px] text-[#abb2bf] text-center
           xl:text-[22px] 2xl:[text-26px]"
             >
               He crafts responsive website where technologies meet creativity
@@ -37,7 +34,9 @@ export default function Home() {
             src={Desidev}
             alt="desidev"
             priority
-            className="w-[457px] h-[386px]"
+            className="w-[257] h-[286px]
+            cols-span-6
+            xl:w-[457px] xl:h-[386px] "
           />
         </div>
         {/* Quote */}
@@ -53,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         {/* Project */}
-        <div>
+        <div className="w-screen h-[75vh]">
           <div className="flex justify-center items-between gap-[20px]">
             <div className="flex flex-[2] items-center ml-[5%]">
               <h3 className="text-[#abb2bf] font-(--font-bold) text-[32px]">
@@ -79,7 +78,9 @@ export default function Home() {
             <div className="hidden md:hidden xl:block xl:ml-[5%] 2xl:block 2xl:ml-[10%] cols-span-3">
               <Image src={vectorset} alt="vectors" />
             </div>
-            <TechSkill />
+           <div>
+           <TechSkill />
+           </div>
           </div>
         </div>
         {/* about me */}
@@ -92,7 +93,7 @@ export default function Home() {
             <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
           </div>
 
-          <div className="grid  grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6 m-[2%] place-items-center">
+          <div className="grid  grid-cols-1 xl:grid-cols-2 md:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6 m-[2%] place-items-center">
             <div className="flex flex-col justify-center item-center gap-[20px] cols-span-6 w-[400px] h-[400px] ml-[5%]  xl:ml-[20%] 2xl:ml-[30%] ">
               <p className="font-(--font-regular)  text-[#abb2bf] text-[20px] place-items-center">
                 Hello,i&apos;m Chaitanya!
@@ -118,9 +119,7 @@ export default function Home() {
               src={Animedev}
               alt="animedev"
               priority
-              className=" sm:w-[200px] sm:h-[200px] cols-span-6 
-           2xl:w-[400px] 2xl:h-[400px] w-[300px] h-[300px] 
-           xl:ml-[20%] 2xl:mr-[-30%] mr-[-10%]"
+              className="w-[257] h-[286px] xl:w-[457px] xl:h-[386px] "
             />
           </div>
 
@@ -159,7 +158,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
 
       <Footer />
     </>
