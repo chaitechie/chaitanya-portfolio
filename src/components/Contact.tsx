@@ -68,10 +68,10 @@ function Contact() {
                 placeholder:font-(--font-regular) text-white placeholder:text-white placeholder:text-center text-center'placeholder='Enter your email address'
                 required
                 />
-               
-                    <input type="text" onChange={(e) => setUserSubject(e.target.value)}
-                    name="subject" value={userSubject} className='bg-(--gray) w-[200px] h-[5vh] rounded-lg outline-none border-(--background) border-2 m-2 xl:w-[400px] 2xl:w-[400px]  placeholder:font-(--font-regular) placeholder:text-white placeholder:text-center
-                    'placeholder='Enter your subject' required/>
+               <input type="text" onChange={(e) => setUserSubject(e.target.value)}
+               name="subject" value={userSubject} className='bg-(--gray) w-[200px] h-[5vh] rounded-lg outline-none border-(--background) border-2 text-white text-center m-2 xl:w-[400px] 2xl:w-[400px] placeholder:font-(--font-regular) placeholder:text-white placeholder:text-center
+               'placeholder='Enter your subject' required/>
+                   
                   
                   <textarea name="message" value={userMessage}  onChange={(e) => setUserMessage(e.target.value)} className='bg-(--gray) w-[200px] h-[12vh] rounded-lg outline-none border-(--background) border-2 m-2 xl:w-[400px] 2xl:w-[400px] placeholder:font-(--font-regular) placeholder:text-white placeholder:text-center text-white' 
                     placeholder='Write your message '

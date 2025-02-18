@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         {/* Project */}
-        <div className="w-screen h-[75vh]">
+        <div className="w-screen xl:h-[75vh] 2xl:h-[75vh]">
           <div className="flex justify-center items-between gap-[20px]">
             <div className="flex flex-[2] items-center ml-[5%]">
               <h3 className="text-[#abb2bf] font-(--font-bold) text-[32px]">
@@ -60,6 +60,7 @@ export default function Home() {
               </h3>
               <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
             </div>
+         
           </div>
 
           <Project />
@@ -73,6 +74,7 @@ export default function Home() {
               </h3>
               <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
             </div>
+
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 m-[5%] gap-2">
             <div className="hidden md:hidden xl:block xl:ml-[5%] 2xl:block 2xl:ml-[10%] cols-span-3">
@@ -93,8 +95,8 @@ export default function Home() {
             <hr className="w-[40%] h-[2px] bg-[#c778dd] " />
           </div>
 
-          <div className="grid  grid-cols-1 xl:grid-cols-2 md:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6 m-[2%] place-items-center">
-            <div className="flex flex-col justify-center item-center gap-[20px] cols-span-6 w-[400px] h-[400px] ml-[5%]  xl:ml-[20%] 2xl:ml-[30%] ">
+          <div className="grid  grid-cols-1 xl:grid-cols-2 md:grid-cols-2 2xl:grid-cols-2 sm:gap-4 gap-6 m-[2%] place-items-center sm:m-[2%]">
+            <div className="flex flex-col justify-center item-center gap-[20px] cols-span-6 w-[90%] h-[400px] m-10 md:m-[1%] xl:m-4 2xl:m-4">
               <p className="font-(--font-regular)  text-[#abb2bf] text-[20px] place-items-center">
                 Hello,i&apos;m Chaitanya!
               </p>

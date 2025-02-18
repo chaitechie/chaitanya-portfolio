@@ -8,7 +8,7 @@ const Project = () => {
       {data.bigger.map((item) => (
         <div
           key={item.title}
-          className="w-[300px] h-[46vh] border-white border-[1px] rounded-[10px] cols-span-3 "
+          className="w-[300px] h-[40vh]  border-white border-[1px] rounded-[10px] cols-span-3 xl:h-[46vh] 2xl:h-[46vh] md:h-[44vh]"
         >
           <Image
             src={item.image}
