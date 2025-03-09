@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import React from "react";
 import Footer from "@/components/Footer";
-import Contact from "../../components/Contact";
 import Image from "next/image";
 import Email from "../../../public/svg/Email.svg";
 import Linkedin from "../../../public/svg/Linkedin.svg";
@@ -39,13 +38,7 @@ function ContactPage() {
           </a>
         </div>
       </div>
-      {/* Contact form */}
-      <div>
-        <h3 className="text-[#abb2bf] font-(--font-bold) text-[32px] ml-[5%] sm:ml-[2%]">
-          <strong className="text-[#c778dd]">#</strong>contact form
-        </h3>
-        <Contact />
-      </div>
+ 
       {/* Social media links */}
       <div className="w-screen h-[30vh]">
         <h3 className="text-[#abb2bf] font-(--font-bold) text-[32px] ml-[5%] sm:ml-[2%]">
