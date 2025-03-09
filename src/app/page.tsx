@@ -20,8 +20,7 @@ export default function Home() {
             <h1 className="font-(--font-bold) text-[18px] text-white xl:text-[2rem] 2xl:text-[2.5rem] md:text-[32px] text-center">
               chaitanya is 
               <strong className="text-[#c778dd]">  frontend developer </strong>
-              and
-              <strong className="text-[#c778dd]"> web designer  </strong>
+              
             </h1>
             <p
               className="font-(--font-regular) text-[16px] text-[#abb2bf] text-center
